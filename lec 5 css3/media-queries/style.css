@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    background-color: lightgray  ;
+}
+
+@media (max-width: 900px){
+    .box{
+        background-color:darkgray;
+    }
+}
+@media (max-width: 600px){
+    .box{
+        background-color:darkslategray
+    }
+}
+@media (max-width: 300px){
+    .box{
+        background-color:black
+    }
+}
+.box:hover{
+    box-shadow: gray 15px 15px 15px;
+}
