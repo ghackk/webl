@@ -1,0 +1,27 @@
+:root{
+    --page1-color: green;
+    --page2-color: rgb(13, 219, 133);
+    --page3-color: rgb(17, 192, 204);
+    --page4-color: rgb(13, 140, 224);
+    --animate-speed: 1.5s;
+}
+
+body{
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#page-1{
+    background-color: rgb(156, 91, 218);
+}
+#page-2{
+    background-color: rgb(210, 218, 91);
+}
+#page-3{
+    background-color: rgb(91, 218, 169);
+}
+#page-4{
+    background-color: rgb(91, 193, 218);
+}
