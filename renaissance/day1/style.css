@@ -26,7 +26,7 @@ body{
 #page-4{
     background-color: rgb(91, 193, 218);
 }
-
+/* We can also use only h1 or p instead of .container */
 .container h1{
     font-size: 4rem;
     color: rgb(255, 2, 2);
